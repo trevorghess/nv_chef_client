@@ -18,3 +18,5 @@ chef_version '>= 12.1' if respond_to?(:chef_version)
 # a Supermarket.
 #
 # source_url 'https://github.com/<insert_org_here>/nv_chef_client'
+
+depends 'chef-client', '~>9.0.0' 
